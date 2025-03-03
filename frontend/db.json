@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Kim",
+      "email": "kimg@gmail.com",
+      "password": "kg1234"
+    },
+    {
+      "id": "f470",
+      "name": "65t",
+      "email": "jketr@gmail.com",
+      "password": "etr"
+    },
+    {
+      "id": "44f6",
+      "name": "po",
+      "email": "ioijk@gmail.com",
+      "password": "ioi"
+    },
+    {
+      "id": "b340",
+      "name": "dg",
+      "email": "jkdgf@gmail.com",
+      "password": "dg"
+    },
+    {
+      "id": "1dd3",
+      "name": "td",
+      "email": "jdgk@gmail.com",
+      "password": "dg"
+    }
+  ]
+}
