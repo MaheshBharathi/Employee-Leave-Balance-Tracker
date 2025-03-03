@@ -1,0 +1,109 @@
+/* .abo1{
+    background:linear-gradient(to right,lightcoral,blueviolet);
+    height: 100%;
+    margin-top: 20px;
+    font-size: 26px;
+    padding: 30px;
+    color: black;
+}
+.abo2{
+    text-decoration: underline;
+    
+} */
+ /* Aboutus.css */
+/* .abo1 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .abo2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    .abo1 {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .abo2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  } */
+   /* Aboutus.css */
+.abo1 {
+    background: linear-gradient(to right, #007bff, #00c6ff); /* Blue Gradient */
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .abo2 {
+    color: #ffeb3b; /* Yellow Accent for Headings */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+  }
+  .abo{
+    background:linear-gradient(to right,blueviolet,lightcoral);
+    height: 841px;
+    padding: 10px;
+  }
+  
+  p:hover {
+    color: #ffffff; /* Brighter text on hover */
+    transition: 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .abo1 {
+      padding: 25px;
+    }
+    
+    .abo2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  

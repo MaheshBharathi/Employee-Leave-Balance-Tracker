@@ -1,0 +1,241 @@
+/* .sig1{
+    background-color:pink;
+     padding: 20px; 
+    text-align: center;
+    width: 400px;
+    height: 460px;
+    border-radius: 20px;
+    font-family: sans-serif;
+margin-left: 100px; 
+    margin-bottom: 754px;
+   margin-left: 350px;
+    margin-right: 1050px;
+    margin-top: 30px;
+
+} 
+.sig2{
+    color: black;
+    font-size: 20px;
+    
+   
+}
+.sig3{
+    border: none;
+    margin-top: 10px;
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+.sig5{
+    border: none;
+    background-color: purple;
+    color: antiquewhite;
+    padding: 6px;
+    margin-top: 15px;
+
+}
+.sig4{
+    border: none;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.sig5:hover{
+    background-color: antiquewhite;
+    color: purple;
+} */
+ /* Center the form container */
+/* Background and container styling */
+/* Full Page Background with Gradient */
+/* Signup Form Container */
+/* Form Container */
+/* mine */
+/* .formcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Form Box */
+/* .s4 {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff6a88, #ff5e7e, #ff3e61);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.s4:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 20px 30px rgba(255, 94, 126, 0.6);
+} */
+
+/* Labels */
+/* .s1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+} */
+
+/* Input Fields */
+/* .s2 {
+    width: 85%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.s2:focus {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 15px rgba(255, 118, 132, 0.7);
+} */
+
+/* Submit Button */
+/* .s3 {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgba(255, 81, 47, 0.5);
+}
+
+.s3:hover {
+    background: linear-gradient(90deg, #dd2476, #ff512f);
+    box-shadow: 0px 0px 20px rgba(221, 36, 118, 0.7);
+} */
+
+/* Animated Gradient Background */
+/* @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.formcont {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */ 
+ /* Signup container */
+.signup-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Signup heading */
+  .sih1 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Form styling */
+  .sih2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Label styling */
+  .sih3 {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+    text-align: left;
+    width: 100%;
+  }
+  
+  /* Input fields */
+  .sih5 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .sih5:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .sih4 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transition: background 0.3s ease; */
+    margin-top: 10px;
+  }
+  
+  .sih4:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message styles */
+  .message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .message.success {
+    color: green;
+  }
+  
+  .message.error {
+    color: red;
+  }
+  
+  /* Login link */
+  .sih6 {
+    margin-top: 10px;
+    font-size: 14px;
+    color:black;
+  }
+  
+  .sih6 a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .sih6 a:hover {
+    text-decoration: underline;
+  }
+  

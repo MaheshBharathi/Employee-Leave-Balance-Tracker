@@ -1,0 +1,27 @@
+.nav1{
+    /* text-align: center; */
+     margin-right: 420px; 
+    
+    color:white;
+    text-size-adjust: 23px;
+}
+.nav{
+     /* background: url('C:\Users\22CS048\employee\img3.jfif');  */
+    /* background: url('C:\Users\22CS048\employee\img-13.jpg'); */
+    /* background: url('C:\Users\22CS048\employee\img-16.jpg'); */
+    background: url('C:\Users\22CS048\ELBT\frontend\img-221.jpg');
+    /* background: url('C:\Users\22CS048\employee\img-112 (1).webp'); */
+    /* background: url('C:\Users\22CS048\employee\img-223.webp'); */
+    /* background: url('C:\Users\22CS048\employee\img-225.webp'); */
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20%;
+     /* opacity: 0.9;  */
+}
+.no1{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

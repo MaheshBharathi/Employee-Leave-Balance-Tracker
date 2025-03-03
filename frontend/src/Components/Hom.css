@@ -1,0 +1,90 @@
+.hom1{
+    /* background-color: mediumvioletred; */
+    background-color: rgb(7, 134, 134); 
+    
+    color: white;
+    text-align: center;
+    height: 90px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.hom11{
+    display: flex;
+
+}
+.hom2{
+    color: white;
+}
+.hom3{
+    margin-right: 500px;
+    width:1500px;
+    display: grid;
+    row-gap: 23px;
+    /* background-color: blueviolet; */
+    background-color: rgb(1, 121, 146);
+    padding: 20px;
+    border-radius: 20px; 
+}
+.hom8{
+    margin-left: 800px;
+   /* background-color: blueviolet; */
+   background-color: rgb(21, 121, 146);
+   color: white;
+   height: 720px;
+   display: grid;
+   row-gap: 10px;
+   border-radius: 20px;
+  
+}
+/* .g1{
+    padding: 10px;
+    margin-top: 123px;
+} */
+.hom4{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    
+}
+.hom5{
+    background-color: palegoldenrod;
+    border-radius: 20px;
+    text-align: center;
+}
+.hom6{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.hom15{
+    background-color: palegoldenrod;
+    border-radius: 20px;
+    text-align: center;
+}
+.hom7{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* .hom13{
+    background: url('C:\Users\22CS048\employee\img1.webp');
+    background-color: blue;
+} */
+ .hom11{
+    /* background-color: antiquewhite; */
+    /* background: url('C:\Users\22CS048\employee\img-12.png'); */
+    /* background: url('C:\Users\22CS048\employee\img8.png'); */
+    /* background: url('C:\Users\22CS048\employee\img-14.jpg'); */
+    /* background: url('C:\Users\22CS048\employee\img-114.webp'); */
+    /* background: url('C:\Users\22CS048\employee\img-112 (1).webp'); */
+    /* background: url('C:\Users\22CS048\employee\img-224.webp'); */
+    background: url('C:\Users\22CS048\ELBT\frontend\img-226.webp');
+    background-repeat: no-repeat;
+    background-size: 81%;
+    background-position: center;
+    background-color: rgb(21, 121, 146);
+ }

@@ -1,0 +1,134 @@
+/* .l1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 50px auto;
+    
+}
+
+.re1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.c111, .c222, .re2 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.re2 {
+    height: 100px;
+    resize: none;
+}
+
+.re3 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.re3:hover {
+    background-color: #0056b3;
+}
+.ll1{
+    background-color: purple;
+    height:650px;
+    padding: 130px;
+} */
+/* Leaveinfo.css */
+.ll1 {
+    background: linear-gradient(to right, #007bff, #00c6ff); /* Blue gradient */
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+  }
+  
+  .l1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .c111, .c222, .re2 {
+    width: 90%;
+    padding: 12px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    color: black;
+    text-align: center;
+  }
+  
+  .c111:focus, .c222:focus, .re2:focus {
+    outline: none;
+    border: 2px solid #ffeb3b; /* Yellow border on focus */
+  }
+  
+  .re2 {
+    height: 100px;
+    resize: none;
+  }
+  
+  .re3 {
+    background: #ffeb3b; /* Yellow button */
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  .k11{
+    background-color: rgb(10, 31, 221);
+    height: 840px;
+    padding: 20px;
+  }
+  .re3:hover {
+    background: #ffc107; /* Slightly darker yellow on hover */
+  }
+  
+  @media (max-width: 600px) {
+    .ll1 {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    .c111, .c222, .re2 {
+      width: 100%;
+    }
+  }
+  
