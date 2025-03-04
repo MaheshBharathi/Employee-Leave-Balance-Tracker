@@ -1,38 +1,5 @@
 
-// var express = require('express');
-// var router = express.Router();
-// var userModel=require('../Models/userModel')
-// /* GET users listing. */
-// // //localhost:3001/users/signup
-// //body-->raw-->{"username":"adam","email":"a@gmail.com","password":"12345"}
-// router.post('/signup',(req,res)=>{
-//   let user=new userModel({
-//     username:req.body.username,
-//     email:req.body.email,
-//     password:req.body.password
-//   })
-//   user.save()
-//   .then(response=>res.status(200).json({message:response}))
-//   .catch(err=>res.status(401).json({message:err}))
-// })
-// // router.post('/login',async(req,res)=>{
-  
-// //   console.log(req.body)
-// //   try{
-// //       const {username,password}=req.body
-// //       let user=await userModel.findOne({username})
-// //       if(!user){return res.status(404).json({message:"user not found"})}
-// //       let (isMatched)=await bcrypt.compare(password,user.password)
-// //       if(!isMatched){return res.status(400).json({message:"password is not correct"})}
-// //       res.status(200).json({message:"login successfull",username:user.username})
-// //   }
-// //   catch(err){
-// //       res.status(500).json({err})
-// //   }
-// // })
 
-
-// module.exports = router;
 
 
 const express = require('express');
