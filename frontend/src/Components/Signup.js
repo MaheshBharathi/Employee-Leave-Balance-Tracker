@@ -74,12 +74,12 @@ const Signup = () => {
 
   const [message, setMessage] = useState("");
 
-  // Handle input change
+  
   const handleChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
-  // Handle form submission
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMessage("");
@@ -93,7 +93,7 @@ const Signup = () => {
       const response = await axios.post("http://localhost:8001/users/signup", user);
       setMessage(response.data.message || "✅ Signup Successful!");
 
-      // ✅ Redirect to login page after 2 seconds
+      
       setTimeout(() => {
         navigate("/login");
       }, 3000);
