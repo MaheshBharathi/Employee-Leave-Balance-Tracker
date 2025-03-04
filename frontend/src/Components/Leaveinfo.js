@@ -3,16 +3,16 @@ import React, { useState } from 'react';
 import "./Leaveinfo.css";
 
 function Leaveinfo() {
-  // State to store input values
+
   const [reason, setReason] = useState('');
   const [days, setDays] = useState('');
   const [details, setDetails] = useState('');
 
-  // Function to handle form submission
+ 
   const handleSubmit = () => {
     alert("Your leave will be allocated");
 
-    // Clear input fields after submission
+    
     setReason('');
     setDays('');
     setDetails('');
