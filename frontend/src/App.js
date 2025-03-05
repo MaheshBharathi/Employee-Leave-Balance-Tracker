@@ -12,7 +12,7 @@ import Leaveinfo from './Components/Leaveinfo'
 //  import Profile from './Components/Profile';
 
  //import { AuthProvider } from './Components/Auth';
-import ReqAuth from './Components/ReqAuth';
+//import ReqAuth from './Components/ReqAuth';
 
 function App() {
   return (
